@@ -6,7 +6,7 @@
 3. run mapVis.py script using python3 `python3 ./mapVis.py`  [IF RUN FAILS, see 'Required Python Libraries' Section for more details]
 4. [optional] when running the file, you may specify the grisize to use with the --gridsize flag `python3 ./mapVis.py --gridsize [size]`
 5. log into your mqtt account in the terminal
-6. publish data to the mqtt server under the topic '<username>/(x,y)'
+6. publish data to the mqtt server under the topic '\<username\>/(x,y)'
    * username is your team in the format team#
    * x/y are integer from 0 to gridsize (default 0-14)
    * data should be a 0 for a white square and 1 for a black square
