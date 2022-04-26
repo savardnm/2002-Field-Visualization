@@ -33,3 +33,5 @@ To download libraries
    * `pip install numpy`
    * `pip install argparse`
    * `pip install paho-mqtt`
+
+Note: depending on your install process, you may need to use `pip3` instead of `pip` for these commands
