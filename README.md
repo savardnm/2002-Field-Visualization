@@ -8,7 +8,7 @@
 5. log into your mqtt account in the terminal
 6. publish data to the mqtt server under the topic '\<username\>/(x,y)'
    * username is your team in the format team#
-   * x/y are integer from 0 to gridsize (default 0-14)
+   * x/y are integers from 0 to \<gridsize\> (default 0-14)
    * data should be a 0 for a white square and 1 for a black square
 
 ## Required Python Libraries
