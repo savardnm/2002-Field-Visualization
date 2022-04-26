@@ -22,9 +22,9 @@ This Program runs on python 3 with the following libraries (installation instruc
 
 For Installation, View the following Guides:
 
-[Installing Python](https://www.python.org/downloads/)
-[Installing pip](https://packaging.python.org/en/latest/tutorials/installing-packages/) (To download additional libraries above)
-[Running Python via VScode](https://code.visualstudio.com/docs/languages/python)
+- [Installing Python](https://www.python.org/downloads/)
+- [Installing pip](https://packaging.python.org/en/latest/tutorials/installing-packages/) (To download additional libraries above)
+- [Running Python via VScode](https://code.visualstudio.com/docs/languages/python)
 
 To download libraries
 1. [Install pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
