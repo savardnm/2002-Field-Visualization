@@ -71,6 +71,9 @@ class Map:
     def reset(self):
         self.grid = numpy.zeros(self.grid_size)
 
+    def fill(self):
+        self.grid = numpy.ones(self.grid_size)
+
 
 class MQTT:
     def __init__(self, map):
@@ -108,6 +111,8 @@ class MQTT:
         elif (topic.lower() == "cmd"):
             if val == "reset":
                 self.map.reset()
+            if val == "fill":
+                self.map.fill()
 
     def is_coord(self, msg):
         try:

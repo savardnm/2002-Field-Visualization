@@ -11,6 +11,13 @@
    * x/y are integers from 0 to \<gridsize\> (default 0-14)
    * data should be a 0 for a white square and 1 for a black square
 
+## Commands
+
+| Topic | Value | Response |
+| --- | --- | --- |
+| (x,y) | <0,1> | Fills in a square on the map at (x,y) as a black square for a '1' and a white square for '0' |
+| command | <reset, fill> | reset: clears all squares to white (0) <br> fill: fills all squares to black (1) |
+
 ## Required Python Libraries
 This Program runs on python 3 with the following libraries (installation instructions below):
 - tkinter
@@ -28,7 +35,7 @@ For Installing and Running Python Code, View the following Guides:
 
 To download libraries through pip:
 1. [Install pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
-2. if you are in MAC, in command line run the following commands:
+2. if you are in MAC / Linux, in command line run the following commands:
    * `pip3 install --upgrade pip`
    * `pip3 install -r requirements.txt`
 3. if you are in WINDOWS, in the command line, run the following commands:
