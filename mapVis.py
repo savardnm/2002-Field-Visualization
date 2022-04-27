@@ -61,7 +61,7 @@ class Map:
     def login(self):
         print("Please Enter Your Login Info:")
         username = input('Enter username: ')
-        password = input('Enter username: ')
+        password = input('Enter password: ')
 
         self.mqtt.login(username, password)
         self.mqtt.connect()
