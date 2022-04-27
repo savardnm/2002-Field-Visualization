@@ -28,8 +28,11 @@ For Installing and Running Python Code, View the following Guides:
 
 To download libraries through pip:
 1. [Install pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
-2. in command line run the following commands:
+2. if you are in MAC, in command line run the following commands:
    * `pip3 install --upgrade pip`
    * `pip3 install -r requirements.txt`
+3. if you are in WINDOWS, in the command line, run the following commands:
+   * `py -m pip install --upgrade pip`
+   * `py -m pip install -r requirements.txt`
 
 Note: depending on your install process, you may need to use `pip` instead of `pip3` for these commands if the above command fails
