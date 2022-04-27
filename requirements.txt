@@ -1,2 +1,2 @@
-numpy==1.22.3
+numpy==1.17.4
 paho-mqtt==1.6.1
