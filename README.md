@@ -20,18 +20,16 @@ This Program runs on python 3 with the following libraries (installation instruc
 - copy
 - ast
 
-For Installation, View the following Guides:
+For Installing and Running Python Code, View the following Guides:
 
 - [Installing Python](https://www.python.org/downloads/)
 - [Installing pip](https://packaging.python.org/en/latest/tutorials/installing-packages/) (To download additional libraries above)
 - [Running Python via VScode](https://code.visualstudio.com/docs/languages/python)
 
-To download libraries
+To download libraries through pip:
 1. [Install pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
 2. in command line run the following commands:
-   * `pip install tkinter`
-   * `pip install numpy`
-   * `pip install argparse`
-   * `pip install paho-mqtt`
+   * `pip3 install --upgrade pip`
+   * `pip3 install -r requirements.txt`
 
-Note: depending on your install process, you may need to use `pip3` instead of `pip` for these commands
+Note: depending on your install process, you may need to use `pip` instead of `pip3` for these commands if the above command fails
