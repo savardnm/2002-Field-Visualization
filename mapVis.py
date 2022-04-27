@@ -5,6 +5,8 @@ import argparse
 import paho.mqtt.client as mqtt
 from ast import literal_eval as make_tuple
 
+TK_SILENCE_DEPRECATION = 1
+
 verbose = False
 
 class Map:
